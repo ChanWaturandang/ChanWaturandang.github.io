@@ -4,103 +4,177 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
+    <title>MyCv</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="chancv.css">
 </head>
 <body>
-    <header>
-        <table cellspacing="15">
-            <tr>
-                <td> <img src="C:\Users\ASUS TUF\Pictures\Picsart_22-06-12_23-23-25-448.png" alt="Profile picture" width="210"> </td>
-                <td><h1>Cristiano Stievan Chandrika Waturandang</h1>
-                    <h2>Student</h2>
-                    <p>Student / Universitas Klabat / Semester 3</br>
-                        NIM   : 105022110007</br> 
-                        EMAIL : s22110059@student.unkab.ac.id</br>
-                        PHONE : +6282248739983
-                    </p>
-                </td>
-            </tr>
-        </table>
-    </header>
-    <nav>
-        <a href="">Biografi</a>
-        <a href="#profile">| Profile </a>
-        <a href="#ri">| Research Interest</a>
-        <a href="#education">| Education</a>
-        <a href="#skills">| skills</a>
-        <a href="#contactme">| Contact Me</a>
-    </nav>
-    <section id="profile">
-        <h1>Profile</h1>
-        <p>Hi my name is cristiano stievan chandrika waturandang, you guys can call me <b>"chan"</b>, I am 19 Year old, my religion is christian protestant, i was born in <b>Timika Papua</b> in indonesia.</p>
-    </section>
-    <section id="ri">
-        <hr/>
-        <h1>Research Interest</h1>
-        <p>DevOps Engineering, Introduction To Animation, Game Programing, Design For Visualization And Communication. </p>
-    </section>
-    <section id="education">
-        <hr/>
-        <h1>Education</h1>
-        <ol>
-            <li>
-                <p>
-                    <strong><a href="http/www.unklab.ac.id">UNIVERSITAS KLABAT</a>  </strong>
-                    Computer Science And Information Engineering
-                </p>
-            </li>
-            <li>
-                <p>
-                    <strong><a href="http://ypat.sch.id">YAYASAN PENDIDIKAN ADVENT TIMIKA</a></strong>
-                    TK, SD, SMP, SMA
-                </p>
-            </li>
-        </ol>
-    </section>
-    <section id="skills">
-        <hr/>
-        <h1>Skills</h1>
-        <table cellspacing="10">
-            <tr>
-                <td>HTML</td>
-                <td> <input type="checkbox" checked> </td>
-                <td> <input type="checkbox" checked> </td>
-                <td> <input type="checkbox"> </td>
-                <td> <input type="checkbox"> </td>
-                <td> <input type="checkbox"> </td>
-                <td> <input type="checkbox"> </td>
-            </tr>
-            <tr>
-                <td>PYTHON</td>
-                <td> <input type="checkbox" checked> </td>
-                <td> <input type="checkbox" checked> </td>
-                <td> <input type="checkbox" checked> </td>
-                <td> <input type="checkbox"> </td>
-                <td> <input type="checkbox"> </td>
-                <td> <input type="checkbox"> </td>
-            </tr>
-            <tr>
-                <td>JAVASCRIPT</td>
-                <td> <input type="checkbox" checked> </td>
-                <td> <input type="checkbox"> </td>
-                <td> <input type="checkbox"> </td>
-                <td> <input type="checkbox"> </td>
-                <td> <input type="checkbox"> </td>
-                <td> <input type="checkbox"> </td>
-            </tr>
-            </table>
-        </table> 
-    </section>
-    <section id="contactme">
-        <hr/>
-        <h1>Contact Me</h1>
-        <label for="name">Your Name:</label>
-        <input type="text" name="name" required/><br/><br/>
-        <label for="email">Your E-mail:</label>
-        <input type="text" name="email" required/><br/><br/>
-        <label for="messege">Your Messege:</label><br/>
-        <textarea name="message" id="message" cols="40" rows="10" ></textarea>
+    <div class="container">
+<!-- kiri -->
+        <div class="kiri">
+            <div class="profile">
+                <div class="img8x">
+                    <img src="chancv.png" alt="chan">
+                </div>
+                <h2>Cristiano Stievan Chandrika Waturandang <br><span>Student</span></h2>
+            </div>
 
-    </section>
+            <div class="contactinfo">
+                <h3 class="title">Contact Info</h3>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span class="text">+62 82248739983</span>
+                    </li>
+
+                    <li>
+                        <span class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></span>
+                        <span class="text"><a href="https://www.instagram.com/chn.w_/?hl=en">@chn.w_</a></span>
+                    </li>
+
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <span class="text">cwaturandang90@gmail.com</span>
+                    </li>
+
+                    <li>
+                        <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                        <span class="text">www.mywebsite.com</span>
+                    </li>
+
+                    <li>
+                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span class="text">Airmadidi, Manado, Indonesia</span>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="contactinfo education">
+                <h3 class="title">Education</h3>
+                <ul>
+                    <li>
+                        <h5>2008 - 2009</h5>
+                        <h4>Student in shining-Star</h4>
+                        <h4>TK Shining Stars Timika</h4>
+                    </li>
+
+                    <li>
+                        <h5>2009 - 2015</h5>
+                        <h4>Student in SD Sion</h4>
+                        <h4>SD Sion Timika</h4>
+                    </li>
+
+                    <li>
+                        <h5>2015 - 2018</h5>
+                        <h4>Student in YPAT</h4>
+                        <h4>SMP YAYASAN PENDIDIKAN ADVENT TIMIKA</h4>
+                    </li>
+
+                    <li>
+                        <h5>2018 - 2021</h5>
+                        <h4>SMA in YPAT</h4>
+                        <h4>SMP YAYASAN PENDIDIKAN ADVENT TIMIKA</h4>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contactinfo language">
+                <h3 class="title">Languages</h3>
+                <ul>
+                    <li>
+                        <span class="text">English</span>
+                        <span class="percent">
+                            <div style="width: 72%;"></div>
+                        </span>
+                    </li>
+
+                    <li>
+                        <span class="text">Indonesia</span>
+                        <span class="percent">
+                            <div style="width: 100%;"></div>
+                        </span>
+                    </li>
+
+                    <li>
+                        <span class="text">Japan</span>
+                        <span class="percent">
+                            <div style="width: 25%;"></div>
+                        </span>
+                    </li>
+                </ul>
+        </div>
+    </div>
+
+<!-- kanan -->
+
+        <div class="kanan">
+            <div class="about">
+                <h2 class="title2">About Me</h2>
+                <p>Hi my name is <i>Cristiano Stievan Chandrika Waturandang</i>, I am 19 years old, I am from Timika Papua in Indonesia, My hobby is Singging, Playing Basketball, Playing Billiard, and workout. I am the second child of my family, my fathers work in <a href="https://ptfi.co.id/">PT.Freeport-Indonesia</a> as an employee, my mother is an housewife and assembly in church. <br><br>Now i am in collage and my major is <span>Informatics</span>. After finishing collage i have a goal to become a software engineer in a famous company.</p>
+            </div>
+            <div class="about ri">
+                <h2 class="title3">Reasearch Interest</h2>
+                <ul>
+                    <li>DevOps Engineering</li>
+                    <li>Introduction To Animation</li>
+                    <li>Game Programing</li>
+                    <li>Design For Visualization And Communication</li>
+                </ul>
+            </div>
+
+            <div class="about skills">
+                <h2 class="title3">Skills</h2>
+                <div class="box">
+                    <h4>HTML</h4>
+                    <div class="percent">
+                        <div style="width: 40%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>CSS</h4>
+                    <div class="percent">
+                        <div style="width: 30%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>PHYTON</h4>
+                    <div class="percent">
+                        <div style="width: 50%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>JAVA</h4>
+                    <div class="percent">
+                        <div style="width: 10%;"></div>
+                    </div>
+                </div>
+            
+                <div class="about hobby">
+                    <h2 class="title2">Hobby</h2>
+                    <ul>
+                        <li><i class="fa fa-gamepad" aria-hidden="true"></i>Gaming</li>
+                        <li><i class="fa fa-microphone" aria-hidden="true"></i>Singging</li>
+                        <li><i class="fa fa-heartbeat" aria-hidden="true"></i>Sports</li>
+                        <li><i class="fa fa-motorcycle" aria-hidden="true"></i>Riding</li>
+                    </ul>
+                </div>
+            
+            <div class="about ms">
+                <h2 class="title0">Send Message</h2>
+                <label for="name" >Your Name:</label>
+                <input type="text" name="name" required/><br/><br/>
+                <label for="email">Your E-mail:</label>
+                <input type="text" name="email" required/><br/><br/>
+                <label for="messege">Your Messege:</label><br/>
+                <textarea name="message" id="message" cols="70" rows="5" ></textarea>
+                <br>
+                <center>
+                <input type="submit" name="submit">
+                </center>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
